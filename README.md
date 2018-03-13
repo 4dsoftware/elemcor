@@ -12,7 +12,9 @@ The example data file from labeled samples is "test_labeled.xlsx", and the assoc
 
 ## Tutorial
 
-The software tool takes data in a spreadsheet format, preferrably in XLSX. Step 1 and 2 are data browser for labeled and unlabeld samples respectively, while Step 2 is optional. When unlabeled samples are not provided, ElemCor runs correction based on the mass difference theory (see Reference 2). The other options include inpurity, nominal resolution, tracer element, and analyzer. We recommend 100,000 as nominal resolution for Orbitrap and 340,000 for high frequency Orbitrap. The others are specified by the users.  
+The software tool takes data in a spreadsheet format, preferrably in XLSX. Step 1 and 2 are data browser for labeled and unlabeld samples respectively, while Step 2 is optional. When unlabeled samples are not provided, ElemCor runs correction based on the mass difference theory (see Reference 2). The other options include inpurity, nominal resolution, tracer element, and analyzer. We recommend 100,000 as nominal resolution for Orbitrap and 340,000 for high frequency Orbitrap. The others are specified by the users. 
+
+After the parameters are specified, one can run the last step "analyze the data". It takes a few seconds to analyze, and the output is shown in the table on the right. The table can be copied and saved in a spreadsheet. One can select a cell to view the isotopologs before and after correction. Isotopic enrichments are also calculated and shown with the isotopologs.  
 
 ## References
 1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
