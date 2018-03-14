@@ -1,6 +1,6 @@
 # ElemCor
 
-MIsoCor is a software tool for the correction for natural abundance and isotopic impurity in isotope labeling experiments. It is a combination of three exisiting software, IsoCor, AccuCor, and FluxFix. ElemCor has combined the advantages of the three software.  
+MIsoCor is a software tool for the correction for natural abundance and isotopic impurity in isotope labeling experiments. It is a combination of three exisiting software, IsoCor (Ref. 1), AccuCor (Ref. 2), and FluxFix (Ref. 3). ElemCor software was built based upon the structure of IsoCor. It uses the mass difference theory described in the AccuCor article (Ref. 2), and/or the data from unlabeled samples described in the FluxFix article (Ref. 3). ElemCor refined the numerical schemes of each software tool. 
 
 ![sasd](https://user-images.githubusercontent.com/15344717/37380798-42a724ba-2708-11e8-93da-8c6d27bae7e7.png)
 
