@@ -15,7 +15,7 @@ The example data file from labeled samples is "test_labelN_sim.xlsx", and the as
 
 ## Tutorial
 
-The software tool takes data in a spreadsheet (xlsx) format. In Steps 1 and 2, labeled and unlabeled data are loaded. Step 2 is optional, and when it is not performed, ElemCor runs based on MDT only. In Step 3, isotopic purity of nutrient and nominal in-strument resolution are specified. In Step 4, the tracer element is selected. In addition to 13C, 2H, and 15N, ElemCor allows 18O and 34S as the tracer element for correction. In Step 5, the mass analyz-er is selected. Then the loaded data are analyzed and isotopic en-richment is calculated for each compound in Step 6. Users can select a cell in the data table, and isotopologs for the corresponding compound and sample before and after correction are shown in the figure above.
+The software tool takes data in a spreadsheet (xlsx) format. In Steps 1 and 2, labeled and unlabeled data are loaded. Step 2 is optional, and when it is not performed, ElemCor runs based on mass difference theory only. In Step 3, isotopic purity of nutrient and nominal instrument resolution are specified. In Step 4, the tracer element is selected. In addition to 13C, 2H, and 15N, ElemCor allows 18O and 34S as the tracer element for correction. In Step 5, the mass analyzer is selected. Then the loaded data are analyzed and isotopic enrichment is calculated for each compound in Step 6. Users can select a cell in the data table, and isotopologs for the corresponding compound and sample before and after correction are shown in the figure above.
 
 ## References
 1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
