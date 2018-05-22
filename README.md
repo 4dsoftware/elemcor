@@ -2,7 +2,7 @@
 
 ElemCor is a software tool to correct LC-MS data for natural abundance and isotopic impurity in isotope labeling experiments. It is based on the correction matrix (Ref. 1) and uses two different approaches to account for resolution effect, mass different theory (Ref. 2), and unlabeled samples (Ref. 3). ElemCor refined the numerical schemes from both methods. 
 
-![elemcor_snapshot](https://user-images.githubusercontent.com/15344717/39780053-bea204ec-52d0-11e8-9e74-e71091154081.jpg)
+![elemcor](https://user-images.githubusercontent.com/15344717/40388920-80e588d4-5dd6-11e8-81c6-66c2c119afbb.jpg)
 
 
 ## Installation
