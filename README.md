@@ -15,7 +15,18 @@ The example data file from labeled samples is "test_labelN_sim.xlsx", and the as
 
 ## Tutorial
 
-The software tool takes data in a spreadsheet (xlsx) format. In Steps 1 and 2, labeled and unlabeled data are loaded. Step 2 is optional, and when it is not performed, ElemCor runs based on mass difference theory only. In Step 3, isotopic purity of nutrient and nominal instrument resolution are specified. In Step 4, the tracer element is selected. In addition to 13C, 2H, and 15N, ElemCor allows 18O and 34S as the tracer element for correction. In Step 5, the mass analyzer is selected. Then the loaded data are analyzed and isotopic enrichment is calculated for each compound in Step 6. Users can select a cell in the data table, and FAM (fractional abundances of measured isotopomers) and MDV (mass distribution vectors) for the corresponding compound and sample before and after correction are shown in the figure above.
+The software tool takes data in a spreadsheet (XLSX) format. In Steps 1 and 2, labeled and unlabeled data are loaded. Step 2 is optional, and when it is not performed, ElemCor runs based on mass difference theory only. In Step 3, isotopic purity of nutrient and nominal instrument resolution are specified. In Step 4, the tracer element is selected. In addition to 13C, 2H, and 15N, ElemCor allows 18O and 34S as the tracer element for correction. In Step 5, the mass analyzer is selected. Then the loaded data are analyzed and isotopic enrichment is calculated for each compound in Step 6. Users can select a cell in the data table, and FAM (fractional abundances of measured isotopomers) and MDV (mass distribution vectors) for the corresponding compound and sample before and after correction are shown in the figure above.
+
+## Q&A
+
+1. Where are the final results?
+
+The final results are previewed in the graphic interface. The are automatically saved into additional sheets in the original XLSX file. The final results include, MDV, enrichment, and fold change of pool size for differerent compounds and samples.  
+
+2. Can the FAM have a different length than one plus the number of tracer atoms?
+
+FAM typically has a length of Nt + 1 to cover M+0, M+1, ..., M+Nt isotopologues. Here Nt stands for the number of tracer atoms. But ElemCor is able to handle FAM that has a length other than Nt + 1, and the answer is Yes. 
+
 
 ## References
 1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
