@@ -37,6 +37,10 @@ IsoCor performs correction based on combinatorics without considering ressolutio
 
 Please check if the correct tracer is selected. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer is not present in the compound.
 
+## Support for Other Platforms
+
+ElemCor was developed and packaged under MATLAB. If you are interested in incorporating source code into your current metabolic flux analysis pipeline, we will be glad to collaborate and share our R and MATLAB functions. 
+
 ## References
 1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
 2. Su, X., et al. Metabolite Spectral Accuracy on Orbitraps. Analytical Chemistry 2017; 89:5940–5948
