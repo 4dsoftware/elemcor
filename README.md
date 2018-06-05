@@ -11,7 +11,7 @@ ElemCor is packaged using MATLAB compiler. Similar to Java application, the soft
 
 ## Instruction
 
-The example data files from labeled samples are "test_labelN_sim.xlsx" and "test_labelS_sim.xlsx", and the associated files from unlabeled samples are "test_unlabelN_sim.xlsx" and "test_unlabelS_sim.xlsx". Both data are simulated from XCalibur. The 15N data include 24 metabolites and the 34S data include 10 metabolites. The files show the standard format of input files. Each column vector correspond to FAM of all compounds in each sample. After correction, the MDV's of corresponding samples are stored with a similar format in the same file. 
+The example data files from labeled samples are "test_labelN_sim.xlsx" and "test_labelS_sim.xlsx", and the associated files from unlabeled samples are "test_unlabelN_sim.xlsx" and "test_unlabelS_sim.xlsx". Both data are simulated from XCalibur at a nominal instrument resolution of 140,000. The 15N data include 24 metabolites and the 34S data include 10 metabolites. The files show the standard format of input files. Each column vector correspond to FAM of all compounds in each sample. After correction, the MDV's of corresponding samples are stored with a similar format in the same file. 
 
 ## Tutorial
 
