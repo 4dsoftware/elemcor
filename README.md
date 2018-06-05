@@ -27,13 +27,13 @@ The final results are previewed in the graphic interface. They are automatically
 
 FAM typically has a length of Nt + 1 to cover M+0, M+1, ..., M+Nt isotopologues. Here Nt stands for the number of tracer atoms. But ElemCor is able to handle FAM that has a length other than Nt + 1, and the answer is Yes. 
 
-3. What's the advantage of ElemCor over IsoCor?
+3. What is the advantage of ElemCor over IsoCor?
 
 IsoCor performs correction based on combinatorics without considering ressolution effect. When instrument resolution is extremely low, ElemCor is identical to IsoCor. When instrument resolution is extremely high, ElemCor performs no correction at all. Therefore, the amount of correction perform by ElemCor is monotonically dependent on instrument resolution. 
 
 ## Trouble Shooting
 
-1. The results sometimes don't come out after a minute. 
+1. The results do not come out after a minute. 
 
 Please check if the correct tracer is selected. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer is not present in the compound.
 
