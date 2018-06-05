@@ -39,7 +39,7 @@ Please check if the correct tracer is selected. If the 15N data are loaded, but 
 
 ## Support for Other Platforms
 
-ElemCor was developed and packaged under MATLAB. If you are interested in incorporating source code into your current metabolic flux analysis pipeline, we will be glad to collaborate and share our R and MATLAB functions. 
+ElemCor was developed in both R and MATLAB, and packaged with graphic interface under MATLAB for distribution. If you are interested in incorporating source code into your current metabolic flux analysis pipeline, we will be glad to collaborate and share our R and MATLAB functions. 
 
 ## References
 1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
