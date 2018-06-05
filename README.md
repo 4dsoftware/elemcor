@@ -33,9 +33,9 @@ IsoCor performs correction based on combinatorics without considering ressolutio
 
 ## Trouble Shooting
 
-1. The results do not come out after a minute. 
+1. The results do not come out in the table after a minute.  
 
-Please check if the correct tracer is selected. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer is not present in the compound.
+Please check if the correct tracer is selected, as the warning message suggests. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer is not present in the compound.
 
 ## Support for Other Platforms
 
