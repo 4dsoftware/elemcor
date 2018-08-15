@@ -1,0 +1,107 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="4252944070" file="C:\Users\DDu\Box Sync\Project\mfile\Proj10_tracer_report\github_elemcor\elemcor.prj" location="C:\Users\DDu\Box Sync\Project\mfile\Proj10_tracer_report\github_elemcor" name="elemcor" preferred-package-location="C:\Users\DDu\Box Sync\Project\mfile\Proj10_tracer_report\github_elemcor\elemcor\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>ElemCor</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.6</param.version>
+    <param.authnamewatermark>Di Du</param.authnamewatermark>
+    <param.email>soft4d@outlook.com</param.email>
+    <param.company />
+    <param.summary>natural abundance and isotopic impurity correction for mass spectrometry data, tracer element O18, 13C, 15N, 2H, and 34S, analyzer Orbitrap</param.summary>
+    <param.description>1.6 new features
+FAM does not have to be the same lengths as the number of tracer element + 1
+Results are automatically saved into excel spreadsheets
+If tracer is not correctly selected, warning will be given in axes 1 and 2</param.description>
+    <param.screenshot>C:\Users\DDu\Desktop\Picture1.bmp</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\ElemCor\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\elemcor\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\elemcor\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\elemcor\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\elemcor</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\soft4d.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\elemcor.m</file>
+      <file>${PROJECT_ROOT}\mdv2enrichm.m</file>
+      <file>${PROJECT_ROOT}\molecular_weight.m</file>
+      <file>${PROJECT_ROOT}\parse_formula.m</file>
+      <file>${PROJECT_ROOT}\permlist.m</file>
+      <file>${PROJECT_ROOT}\soft4d.fig</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\elemcor\for_testing" name="ElemCor.exe" optional="false">C:\Users\DDu\Box Sync\Project\mfile\Proj10_tracer_report\github_elemcor\elemcor\for_testing\ElemCor.exe</file>
+      <file location="${PROJECT_ROOT}\elemcor\for_testing" name="readme.txt" optional="true">C:\Users\DDu\Box Sync\Project\mfile\Proj10_tracer_report\github_elemcor\elemcor\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\elemcor\for_testing" name="splash.png" optional="false">C:\Users\DDu\Box Sync\Project\mfile\Proj10_tracer_report\github_elemcor\elemcor\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
