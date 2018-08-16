@@ -7,7 +7,7 @@ ElemCor is a software tool to correct LC-MS data in isotope labeling experiments
 
 ## Installation
 
-ElemCor is packaged using MATLAB compiler. Similar to Java application, the software tool requires installation of MATLAB Compiler Runtime (MCR), which is included in the package. Double-clicking "MyAppInstaller_web.exe" will initialize the installation. After it is complete, one can use ElemCor as an executable by double-clicking "ElemCor.exe" from the download folder. The installation requires network connection, but after that the software tool can be used offline. 
+ElemCor is packaged using MATLAB compiler. Similar to Java application, the software tool requires installation of MATLAB Compiler Runtime (MCR), which is included in the package. Double-clicking "MyAppInstaller_web.exe" will initialize the installation. After it is complete, one can use ElemCor as an executable by double-clicking "ElemCor.exe" from the download folder. The installation requires network connection, but after that the software tool can be used offline. MATLAB license is not required to run the software.
 
 ## Test File
 
@@ -21,7 +21,7 @@ The software tool takes data in a spreadsheet (XLSX) format. In Steps 1 and 2, l
 
 1. Where are the final results?
 
-The final results are previewed in the graphic interface. They are automatically saved into additional sheets in the original XLSX file. The final results include, MDV, enrichment, and fold change of pool size for differerent compounds and samples.  
+The final results are previewed in the graphic interface. They are automatically saved into additional sheets in the original XLSX file. The final results include, MDV, enrichment, and fold change of pool size for different compounds and samples.  
 
 2. Can the FAM have a different length than one plus the number of tracer atoms?
 
@@ -31,11 +31,10 @@ FAM typically has a length of Nt + 1 to cover M+0, M+1, ..., M+Nt isotopologues.
 
 IsoCor performs correction based on combinatorics without considering ressolution effect. When instrument resolution is extremely low, ElemCor is identical to IsoCor. When instrument resolution is extremely high, ElemCor performs no correction at all. Therefore, the amount of correction perform by ElemCor is monotonically dependent on instrument resolution. 
 
-## Trouble Shooting
+4. What is the expected processing time?
 
-1. The results do not come out in the table after a minute.  
+The example files shown in Fig. 2 can be processed within 10 seconds on a 2.6GHz Core i7 processor, and 20 seconds on a 1.5GHz Core i5 processor. If the results do not come out within a minute, please check whether the correct tracer is selected, as the warning message suggests. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer is not present in the compound.
 
-Please check if the correct tracer is selected, as the warning message suggests. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer is not present in the compound.
 
 ## Support for Other Platforms
 
