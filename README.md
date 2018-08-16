@@ -9,7 +9,7 @@ ElemCor is a software tool to correct LC-MS data in isotope labeling experiments
 
 ElemCor is packaged using MATLAB compiler. Similar to Java application, the software tool requires installation of MATLAB Compiler Runtime (MCR), which is included in the package. Double-clicking "MyAppInstaller_web.exe" will initialize the installation. After it is complete, one can use ElemCor as an executable by double-clicking "ElemCor.exe" from the download folder. The installation requires network connection, but after that the software tool can be used offline. 
 
-## Instruction
+## Test File
 
 The example data files from labeled samples are "test_labelN_sim.xlsx" and "test_labelS_sim.xlsx", and the associated files from unlabeled samples are "test_unlabelN_sim.xlsx" and "test_unlabelS_sim.xlsx". Both data are simulated from XCalibur at a nominal instrument resolution of 140,000. The 15N data include 24 metabolites and the 34S data include 10 metabolites. The files show the standard format of input files. Each column vector correspond to FAM of all compounds in each sample. After correction, the MDV's of corresponding samples are stored with a similar format in the same file. 
 
@@ -39,7 +39,7 @@ Please check if the correct tracer is selected, as the warning message suggests.
 
 ## Support for Other Platforms
 
-ElemCor was developed in both R and MATLAB, and packaged with graphic interface under MATLAB for distribution. If you are interested in incorporating source code into your current metabolic flux analysis pipeline, we will be glad to collaborate and share our R and MATLAB functions. 
+ElemCor was developed in MATLAB, and packaged with graphic interface under MATLAB for distribution. If you are interested in incorporating source code into your current metabolic flux analysis pipeline, we will be glad to collaborate and share our MATLAB functions. 
 
 ## References
 1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
