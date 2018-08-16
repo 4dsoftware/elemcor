@@ -33,7 +33,7 @@ IsoCor performs correction based on combinatorics without considering ressolutio
 
 4. What is the expected processing time?
 
-The example files shown in Fig. 2 can be processed within 10 seconds on a 2.6GHz Core i7 processor, and 20 seconds on a 1.5GHz Core i5 processor. If the results do not come out within a minute, please check whether the correct tracer is selected, as the warning message suggests. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer is not present in the compound.
+The example files shown in Fig. 2 can be processed within 10 seconds on a 2.6GHz Core i7 processor, and 20 seconds on a 1.5GHz Core i5 processor. If the results do not come out within a minute, please check whether the correct tracer is selected, as the warning message suggests. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer element is not present in the compound.
 
 
 ## Support for Other Platforms
