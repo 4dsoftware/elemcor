@@ -90,8 +90,8 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-labeldata = uigetfile('*.xlsx');
-set(handles.edit1,'String',labeldata) %set string
+[labeldata,path] = uigetfile('*.xlsx');
+set(handles.edit1,'String',[path,'/',labeldata]) %set string
 
 % Update handles structure
 guidata(hObject, handles);
@@ -103,7 +103,7 @@ function pushbutton2_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 unlabeldata = uigetfile('*.xlsx');
-set(handles.edit2,'String',unlabeldata) %set string
+set(handles.edit2,'String',[path,'/',unlabeldata]) %set string
 
 % Update handles structure
 guidata(hObject, handles);
