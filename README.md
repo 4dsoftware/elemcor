@@ -47,6 +47,7 @@ ElemCor was developed in MATLAB, and packaged with graphic interface under MATLA
 1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
 2. Su, X., et al. Metabolite Spectral Accuracy on Orbitraps. Analytical Chemistry 2017; 89:5940–5948
 3. Trefely, S., et al. FluxFix: automatic isotopologue normalization for metabolic tracer analysis. BMC Bioinformatics 2016; 17:485
+4. Du, D. et al. ElemCor: accurate data analysis and enrichment calculation for high-resolution LC-MS stable isotope labeling experiments. BMC Bioinformatics, 2019; 20:89
 
 ## Contact
 Di Du
