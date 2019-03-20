@@ -44,9 +44,9 @@ The example files shown in Fig. 2 can be processed within 10 seconds on a 2.6GHz
 ElemCor was developed in MATLAB, and packaged with graphic interface under MATLAB for distribution. If you are interested in incorporating source code into your current metabolic flux analysis pipeline, we will be glad to collaborate and share our MATLAB functions. 
 
 ## References
-1. Millard, P., et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
-2. Su, X., et al. Metabolite Spectral Accuracy on Orbitraps. Analytical Chemistry 2017; 89:5940–5948
-3. Trefely, S., et al. FluxFix: automatic isotopologue normalization for metabolic tracer analysis. BMC Bioinformatics 2016; 17:485
+1. Millard, P. et al. IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics 2012;28:1294-1296
+2. Su, X. et al. Metabolite Spectral Accuracy on Orbitraps. Analytical Chemistry 2017; 89:5940–5948
+3. Trefely, S. et al. FluxFix: automatic isotopologue normalization for metabolic tracer analysis. BMC Bioinformatics 2016; 17:485
 4. Du, D. et al. ElemCor: accurate data analysis and enrichment calculation for high-resolution LC-MS stable isotope labeling experiments. BMC Bioinformatics, 2019; 20:89
 
 ## Contact
