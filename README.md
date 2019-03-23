@@ -1,6 +1,6 @@
 # ElemCor
 
-ElemCor is a software tool to correct LC-MS data in isotope labeling experiments. Due to the contribution of naturally occurring isotopes and isotopic impurity from the tracer, the fractional abundances of measured isotopologues (FAM) collected from the instrument must be corrected to obtain mass distribution vectors (MDV) that correspond to the contribution from isotopic labeling. ElemCor is based on the correction matrix (Ref. 1) and uses two different approaches to account for resolution effect, mass different theory (Ref. 2), and unlabeled samples (Ref. 3). ElemCor corrects and improves the numerical schemes of both methods. 
+ElemCor is a software tool to correct LC-MS data in isotope labeling experiments. Due to the contribution of naturally occurring isotopes and isotopic impurity from the tracer, the fractional abundances of measured isotopologues (FAM) collected from the instrument must be corrected to obtain mass distribution vectors (MDV) that correspond to the contribution from isotopic labeling. ElemCor is based on the correction matrix (Ref. 1) and uses two different approaches to account for resolution effect, mass different theory (Ref. 2), and unlabeled samples (Ref. 3). ElemCor corrects and improves the numerical schemes of both methods (Ref. 4). 
 
 ![elemcor](https://user-images.githubusercontent.com/15344717/40388920-80e588d4-5dd6-11e8-81c6-66c2c119afbb.jpg)
 
