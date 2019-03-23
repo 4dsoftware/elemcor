@@ -38,6 +38,14 @@ IsoCor performs correction based on combinatorics without considering ressolutio
 
 The example files shown in Fig. 2 can be processed within 10 seconds on a 2.6GHz Core i7 processor, and 20 seconds on a 1.5GHz Core i5 processor. If the results do not come out within a minute, please check whether the correct tracer is selected, as the warning message suggests. If the 15N data are loaded, but C or S is selected as tracer, then the software tool would not run properly. This is because some compounds may not have C or S in their formula, and the algorithm will report error if the tracer element is not present in the compound.
 
+## Troubleshooting 
+
+The current version only prints a general error message. The follow steps usually help.
+
+1. Check if correct tracer element is selected.
+2. Check if the xlsx file is within the same directory as the executable. 
+3. Check if the labeled and unlabeled files have the same analytes and the same number of rows. 
+
 
 ## Support for Other Platforms
 
